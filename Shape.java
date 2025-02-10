@@ -21,5 +21,6 @@ abstract class Shape{
 	abstract double calculatePerimeter(); //Abstract Method
 
 	public int getNumSlides(){
+		return num_sides;
 	}
 }
